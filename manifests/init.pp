@@ -1,0 +1,5 @@
+# == Class: logwatch
+#
+class logwatch (
+) {
+}
