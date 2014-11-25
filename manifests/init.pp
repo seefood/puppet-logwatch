@@ -5,6 +5,9 @@
 # $package_name
 #
 class logwatch (
+  $mail_to        = undef,
+  $mail_from      = 'root',
+  $range          = 'yesterday',
   $package_ensure = 'installed',
   $package_name   = 'logwatch',
 ) {
