@@ -2,6 +2,7 @@
 #
 class logwatch::params {
 
+  $format         = 'test'
   $mail_to        = 'root'
   $mail_from      = 'Logwatch'
   $range          = 'Yesterday'
@@ -9,4 +10,5 @@ class logwatch::params {
   $service        = [ 'All' ]
   $package_ensure = 'installed'
   $package_name   = 'logwatch'
+
 }

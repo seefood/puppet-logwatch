@@ -2,6 +2,9 @@
 #
 # Local configuration options go here (defaults are in /usr/share/logwatch/default.conf/logwatch.conf)
 
+<% if @format -%>
+Format = <%= @format %>
+<% end -%>
 <% if @mail_to -%>
 MailTo = <%= @mail_to %>
 <% end -%>
@@ -15,5 +18,5 @@ Range = <%= @range %>
 Detail = <%= @detail %>
 <% end -%>
 <% @service.each do |ser| -%>
-Service = <%= @ser %>
+Service = <%= ser %>
 <% end -%>
