@@ -22,6 +22,12 @@ on Linux based systems.
 
 ##Setup
 
+**NOTE: You must have a proper MTA installed and configured to send mail externally.
+
+###Stdlib
+
+This module requires puppetlabs-stdlib >= 3.2.0
+
 ###What logwatch affects
 
  * logwatch package.
@@ -34,6 +40,8 @@ on Linux based systems.
 ```puppet
   class { '::logwatch': }
 ```
+
+#### Using available parameters
 
 ```puppet
  class { '::logwatch':
