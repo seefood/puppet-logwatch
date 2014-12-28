@@ -17,7 +17,7 @@ The logwatch module configures logwatch on Linux bases systems.
 
 ##Module Description
 
-The logwatch module will manage the installation and configration of logwatch
+The logwatch module will manage the installation and configuration of logwatch
 on Linux based systems.
 
 ##Setup
