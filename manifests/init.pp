@@ -7,6 +7,7 @@
 # $package_name
 #
 class logwatch (
+  $output         = $logwatch::params::output,
   $format         = $logwatch::params::format,
   $mail_to        = $logwatch::params::mail_to,
   $mail_from      = $logwatch::params::mail_from,
@@ -17,8 +18,9 @@ class logwatch (
   $package_name   = $logwatch::params::package_name,
 ) inherits logwatch::params {
 
+  validate_string($output)
   validate_string($format)
-  validate_string($mail_to)
+  validate_array($mail_to)
   validate_string($mail_from)
   validate_re($range, ['^All$', '^Today$', '^Yesterday$'])
   validate_re($detail, ['^Low$', '^Med$', '^High$'])

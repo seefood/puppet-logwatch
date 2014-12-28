@@ -2,12 +2,13 @@
 #
 # Local configuration options go here (defaults are in /usr/share/logwatch/default.conf/logwatch.conf)
 
+<% if @output -%>
+Output = <%= @output %>
+<% end -%>
 <% if @format -%>
 Format = <%= @format %>
 <% end -%>
-<% if @mail_to -%>
-MailTo = <%= @mail_to %>
-<% end -%>
+MailTo = <%= @mail_to.join(' ') %>
 <% if @mail_from -%>
 MailFrom = <%= @mail_from %>
 <% end -%>

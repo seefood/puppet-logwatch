@@ -2,8 +2,9 @@
 #
 class logwatch::params {
 
+  $output         = 'stdout'
   $format         = 'test'
-  $mail_to        = 'root'
+  $mail_to        = [ 'root' ]
   $mail_from      = 'Logwatch'
   $range          = 'Yesterday'
   $detail         = 'Low'
