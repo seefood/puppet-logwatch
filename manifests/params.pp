@@ -8,7 +8,7 @@ class logwatch::params {
   $range          = 'Yesterday'
   $detail         = 'Low'
   $service        = [ 'All' ]
-  $package_ensure = 'installed'
+  $package_ensure = 'present'
   $package_name   = 'logwatch'
 
 }
