@@ -1,0 +1,57 @@
+{
+  "name": "jonnyx-logwatch",
+  "version": "0.1.0",
+  "author": "jonnyx",
+  "summary": "Manage Logwatch on Linux Servers",
+  "license": "Apache Version 2.0",
+  "source": "https://github.com/jonmosco/puppet-logwatch",
+  "project_page": "https://github.com/jonmosco/puppet-logwatch",
+  "issues_url": "https://github.com/jonmosco/puppet-logwatch/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+        "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+        "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_range": ">= 3.2.0"
+    }
+  ]
+}
