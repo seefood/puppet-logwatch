@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe 'logwatch', :type => :class do
 
-  it { should contain_class('logwatch::install') }
-  it { should contain_class('logwatch::config') }
+  it { should contain_class('logwatch::params') }
+  it { should contain_class('logwatch::install').that_comes_before('logwatch::config') }
 
   it do
     should contain_package('logwatch').with({

@@ -10,6 +10,8 @@
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 6. [Limitations - OS compatibility, etc.](#limitations)
+7. [Development - Guide for contributing to the module](#development)
+    * [Contributing](#contributing)
 
 ##Overview
 
@@ -87,3 +89,7 @@ The module has been tested on:
 * RedHat Enterprise Linux 6/7
 * CentOS 6/7
 * Ubuntu 12.04/14.04
+
+##Development
+
+###Contributing
