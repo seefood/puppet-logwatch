@@ -3,6 +3,13 @@
 # This class configures Logwatch
 #
 # Parameters
+# $output
+# $format
+# $mail_to
+# $mail_from
+# $range
+# $detail
+# $service
 # $package_ensure
 # $package_name
 #
