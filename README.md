@@ -1,4 +1,5 @@
 #logwatch
+[![Build Status](https://travis-ci.org/jonmosco/puppet-logwatch.svg?branch=master)](https://travis-ci.org/jonmosco/puppet-logwatch)
 
 ####Table of Contents
 
