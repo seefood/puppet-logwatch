@@ -1,6 +1,6 @@
 {
   "name": "jonnyx-logwatch",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "jonnyx",
   "summary": "Manage Logwatch on Linux Servers",
   "license": "Apache-2.0",
@@ -12,14 +12,16 @@
       "operatingsystem": "RedHat",
         "operatingsystemrelease": [
         "5",
-        "6"
+        "6",
+        "7"
       ]
     },
     {
       "operatingsystem": "CentOS",
         "operatingsystemrelease": [
         "5",
-        "6"
+        "6",
+        "7"
       ]
     },
     {
