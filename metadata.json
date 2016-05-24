@@ -1,6 +1,6 @@
 {
   "name": "jonnyx-logwatch",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": "jonnyx",
   "summary": "Manage Logwatch on Linux Servers",
   "license": "Apache-2.0",
@@ -42,17 +42,17 @@
   "requirements": [
     {
       "name": "pe",
-      "version_requirement": "3.x"
+      "version_requirement": ">= 3.3.0 < 2015.4.0"
     },
     {
       "name": "puppet",
-      "version_requirement": "3.x"
+      "version_requirement": ">= 3.0.0 < 5.0.0"
     }
   ],
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_range": ">= 3.2.0"
+      "version_requirement": ">= 3.2.0"
     }
   ]
 }
