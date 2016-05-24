@@ -1,9 +1,14 @@
 # Change Log
 
-##v1.0.1 2016-05-24
+##v1.0.2 2016-05-24
 ###Summary
 
 - Fix failing RSpec tests
+
+##v1.0.1 2016-05-24
+###Summary
+
+- Removed due to Documentation errors
 
 ##v1.0.0 2016-05-24
 ###Summary
