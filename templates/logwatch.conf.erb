@@ -21,3 +21,8 @@ Detail = <%= @detail %>
 <% @service.each do |ser| -%>
 Service = <%= ser %>
 <% end -%>
+<% if @settings and ! @settings.empty? -%>
+  <%- @settings.each do |key, value| -%>
+<%= key %> = <%= value %>
+  <%- end -%>
+<%- end -%>

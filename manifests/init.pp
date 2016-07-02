@@ -12,6 +12,7 @@
 # $service
 # $package_ensure
 # $package_name
+# $settings (a hash of other random settings to override the defaults or add logfiles)
 #
 class logwatch (
   $output         = $logwatch::params::output,
@@ -23,6 +24,7 @@ class logwatch (
   $service        = $logwatch::params::service,
   $package_ensure = $logwatch::params::package_ensure,
   $package_name   = $logwatch::params::package_name,
+  $settings       = undef,
 ) inherits logwatch::params {
 
   validate_string($output)
